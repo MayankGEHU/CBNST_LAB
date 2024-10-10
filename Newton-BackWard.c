@@ -11,6 +11,7 @@ int main() {
     scanf("%d", &n);
 
     // Dynamic array allocation
+    
     float arr[n][n + 1];
 
     printf("\nEnter the values of x: ");

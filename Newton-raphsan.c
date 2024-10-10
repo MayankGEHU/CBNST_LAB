@@ -216,7 +216,7 @@ void newton_raphson(double initial_guess, double tol){
         iter++;
     }
 
-    if (iter < max_iter) {
+    if (iter < max_iter) { 
         printf("Approximate root: %.6lf\n", x);
         printf("Number of iterations performed: %d\n", iter);
     }
