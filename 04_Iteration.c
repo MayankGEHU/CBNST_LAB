@@ -3,13 +3,13 @@
 
 /* Define function f(x) which
    is to be solved */
-#define   f(x)   cos(x)-3*x+1
+#define   f(x)   cos(x) - 3 * x + 1
 /* Write f(x) as x = g(x) and
    define g(x) here */
-#define   g(x)   (1+cos(x))/3
+#define   g(x)   (1 + cos(x)) / 3
 
 int main() {
-	 int step=1, N;
+	 int step = 1, N;
 	 float x0, x1, e;
 	 printf("Enter initial guess: ");
 	 scanf("%f", &x0);

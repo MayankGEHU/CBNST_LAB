@@ -5,7 +5,6 @@
 int main() {
     float x0, y0, xn, h, yn, k1, k2, k3, k4, k;
     int i, n;
-    printf ("Mayank Singh / 230111954 / 35 / I1\n");
     printf("Enter Initial Condition\n");
     printf("x0 = ");
     scanf("%f", &x0);

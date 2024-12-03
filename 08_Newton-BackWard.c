@@ -10,7 +10,6 @@ int main() {
     printf("Enter the Number of terms: ");
     scanf("%d", &n);
 
-    
     float arr[n][n + 1];
 
     printf("\nEnter the values of x: ");

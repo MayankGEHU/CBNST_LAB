@@ -25,8 +25,8 @@ int main() {
         sumxy = sumxy + x[i] * y[i];
     }
 
-    a = ((sumx2 * sumy - sumx * sumxy) * 1.0/(n * sumx2 - sumx * sumx) * 1.0);
-    b = ((n * sumxy - sumx * sumy) * 1.0/(n * sumx2 - sumx * sumx) * 1.0);
+    a = ((sumx2 * sumy - sumx * sumxy) * 1.0 /(n * sumx2 - sumx * sumx) * 1.0);
+    b = ((n * sumxy - sumx * sumy) * 1.0 /(n * sumx2 - sumx * sumx) * 1.0);
     printf("\n\nLine is Y = %3.3f + %3.3fX",a,b);
     return 0;
 }

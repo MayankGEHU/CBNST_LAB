@@ -7,7 +7,7 @@ float langrange(float x[], float y[], int n, float xp) {
         float p = 1;
         for(int j = 1; j <= n; j++) {
             if(i != j) {
-               p = p* (xp - x[j])/(x[i] - x[j]);
+               p = p* (xp - x[j]) / (x[i] - x[j]);
             }
         }
         yp = yp + p * y[i];
