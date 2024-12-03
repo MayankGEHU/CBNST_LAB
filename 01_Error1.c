@@ -2,7 +2,6 @@
 #include <math.h>
 
 int main() {
-    printf("Mayank Singh / 230111954 / 35 / I1\n");
     double x;
     int n;
     printf("Enter the true value (x): ");

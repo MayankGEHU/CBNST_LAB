@@ -2,7 +2,6 @@
 #include <math.h>
 
 int main() {
-    printf("Mayank Singh / 230111954 / 35 / I1\n");
     double trueValue = sqrt(2);
 
     double approxValue, absoluteError, relativeError, percentageError;

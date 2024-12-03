@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
 int main() {
+
     int n, i, x[20], y[20], sumx = 0, sumy = 0, sumxy = 0, sumx2 = 0;
     float a,b;
     
@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&n);
 
     printf("\n Enter the values of x:\n");
-    for(i = 0; i <= n - 1; i++) {
+    for(i = 0; i <= n - 1; i++) { 
         scanf(" %d",&x[i]);
     }
 

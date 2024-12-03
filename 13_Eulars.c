@@ -7,7 +7,7 @@ float func(float x, float y) {
 int main() {
     float x0, y0, xn, h, x, y, k;
     int n, i;
-
+    
     printf("Enter initial values x0 and y0: ");
     scanf("%f %f", &x0, &y0);
 
@@ -21,7 +21,6 @@ int main() {
 
     x = x0;
     y = y0;
-
 
     printf("x\t\ty\t\tslope (k)\t\ty_next\n");
 
